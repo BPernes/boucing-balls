@@ -1,0 +1,25 @@
+{
+  "name": "boucing-balls",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/BPernes/boucing-balls#readme",
+  "bugs": {
+    "url": "https://github.com/BPernes/boucing-balls/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BPernes/boucing-balls.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server --port=9000 --host=localhost .",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
